@@ -1,0 +1,195 @@
+# coding=utf-8
+import time
+import numpy as np
+from HSIndividual import HSIndividual
+import random
+import copy
+import math
+import matplotlib.pyplot as plt
+from matplotlib.pyplot import MultipleLocator
+#从pyplot导入MultipleLocator类，这个类用于设置刻度间隔
+
+class HarmonySearch:
+
+    '''
+    the class for harmony search algorithm
+    '''
+
+    def __init__(self, sizepop, vardim, bound, MAXGEN, params1, params2):
+        '''
+        sizepop: population sizepop
+        vardim: dimension of variables
+        bound: boundaries of variables
+        MAXGEN: termination condition
+        params1: algorithm required parameters, it is a list which is consisting of[HMCRmax,HMCRmin,PARmax,PARmin,bwmax,bwmin]
+        [1.0,0.9,0.8,0.4,0.08,0.0008]
+        params2 = [HMCR, PAR,bw]
+        '''
+        self.sizepop = sizepop
+        self.vardim = vardim
+        self.bound = bound
+        self.MAXGEN = MAXGEN
+        self.params1 = params1
+        self.params2 = params2
+        self.population = []
+        self.fitness = np.zeros((self.sizepop, 1))
+        self.trace = np.zeros((self.MAXGEN, 4))
+
+    def initialize(self):
+        '''
+        initialize the population of hs
+        '''
+        for i in range(0, self.sizepop):
+            ind = HSIndividual(self.vardim, self.bound, 0)
+            ind.generate()
+            self.population.append(ind)
+
+    def evaluation(self):
+        '''
+        evaluation the fitness of the population
+        '''
+        for i in range(0, self.sizepop):
+            self.population[i].calculateFitness()
+            self.fitness[i] = self.population[i].fitness
+
+    #0号
+    def improvise(self):
+        '''
+        improvise a new harmony     即兴创作
+        '''
+        ind = HSIndividual(self.vardim, self.bound, 0)
+        ind.chrom = np.zeros(self.vardim)
+
+        for i in range(0, self.vardim):
+            bestIdx = np.argmin(self.fitness)
+            if random.random()<self.params2[0]:
+                if random.random()<self.params2[1]:
+                    ind.chrom[i]=random.random()*(self.population[bestIdx].chrom[i]+random.random()*(self.population[random.randint(0,self.sizepop-1)].chrom[i]-self.population[random.randint(0,self.sizepop-1)].chrom[i]+self.population[random.randint(0,self.sizepop-1)].chrom[i]-self.population[random.randint(0,self.sizepop-1)].chrom[i]))
+                    if ind.chrom[i] < self.bound[0, i] or ind.chrom[i] > self.bound[1, i]:
+                        ind.chrom[i]=self.bound[0, i]+(self.bound[1, i]-self.bound[0, i])*random.random()
+                else:
+                    bestIdx = np.argmin(self.fitness)
+                    ind.chrom[i] = self.population[bestIdx].chrom[i]
+            else:
+                x_max_cov=-100000000
+                x_min_cov=100000000
+                for k in range(0,self.sizepop):
+                    x_max_cov=max(x_max_cov,self.population[k].chrom[i])
+                    x_min_cov = min(x_min_cov, self.population[k].chrom[i])
+                x_U_new = self.bound[1,i]
+                x_L_new = self.bound[0,i]
+                x_U_new +=(x_max_cov-x_U_new)*(self.t*1.0/self.MAXGEN)
+                x_L_new +=(x_min_cov-x_L_new)*(self.t*1.0/self.MAXGEN)
+                ind.chrom[i]=x_L_new+(x_U_new-x_L_new)*random.random()
+            if ind.chrom[i] < self.bound[0, i]:
+                ind.chrom[i] = self.bound[0, i]
+            if ind.chrom[i] > self.bound[1, i]:
+                ind.chrom[i] = self.bound[1, i]
+        ind.calculateFitness()
+        return ind
+
+    def update(self, ind):
+        '''
+        update harmony memory
+        '''
+        maxIdx = np.argmax(self.fitness)
+        if ind.fitness < self.population[maxIdx].fitness:
+            self.population[maxIdx] = ind
+            self.fitness[maxIdx] = ind.fitness
+
+
+
+    def updateparams(self):
+        if self.t < self.MAXGEN/4:
+            self.params2[0] = self.params1[1]+(self.params1[0]-self.params1[1])/self.MAXGEN * ( self.t)
+        else:
+            self.params2[0] = self.params1[0]
+        #self.params2[2] = self.params1[4] * math.exp(math.log(self.params1[5]/self.params1[4])/self.MAXGEN*self.t)
+        self.params2[1] = self.params1[2]-(self.params1[2]-self.params1[3])/self.MAXGEN*self.t
+        #self.params2[0] = self.params1[1]+(self.params1[0]-self.params1[1])/self.MAXGEN*self.t
+
+
+    def solve(self):
+        '''
+        the evolution process of the hs algorithm
+        '''
+        print("开始执行HS")
+        start = time.time()
+        self.t = 0
+        self.initialize()
+        self.evaluation()
+        best = np.min(self.fitness)
+
+        bestIndex = np.argmin(self.fitness)
+        self.best = copy.deepcopy(self.population[bestIndex])
+        self.avefitness = np.mean(self.fitness)
+        self.stdev=np.std(self.fitness)
+        #####
+        worstIdx = np.argmax(self.fitness)
+        self.worst = copy.deepcopy(self.population[worstIdx])
+        ######
+        #self.trace[self.t, 0] = (1 - self.best.fitness) / self.best.fitness
+        #self.trace[self.t, 1] = (1 - self.avefitness) / self.avefitness
+        self.trace[self.t, 0] = self.best.fitness
+        self.trace[self.t, 1] = self.avefitness
+        self.trace[self.t, 2] = self.worst.fitness
+        self.trace[self.t, 3] = self.stdev
+        while self.t < self.MAXGEN - 1:
+            self.t += 1
+            self.updateparams()
+            ind = self.improvise()
+            self.update(ind)
+            best = np.min(self.fitness)
+            bestIndex = np.argmin(self.fitness)
+            self.best = copy.deepcopy(self.population[bestIndex])
+            self.avefitness = np.mean(self.fitness)
+            self.stdev = np.std(self.fitness)
+            worstIdx = np.argmax(self.fitness)
+            self.worst = copy.deepcopy(self.population[worstIdx])
+            # self.trace[self.t, 0] = (1 - self.best.fitness) / self.best.fitness
+            # self.trace[self.t, 1] = (1 - self.avefitness) / self.avefitness
+            self.trace[self.t, 0] = self.best.fitness
+            self.trace[self.t, 1] = self.avefitness
+            self.trace[self.t, 2] = self.worst.fitness
+            self.trace[self.t, 3] = self.stdev
+            # print("Generation %d: optimal function value is: %f; average function value is %f; worst function value is %f" % (
+            #        self.t, self.trace[self.t, 0], self.trace[self.t, 1], self.trace[self.t, 2]))
+
+        #print("Optimal function value is: %f; " % self.trace[self.t, 0])
+        #print( "Optimal solution is:")
+        #print (self.best.chrom)
+        end = time.time()
+        print("time:", end - start)
+        print("ID_HS_LDD_HSbest:", self.best.fitness)
+        print("=================")
+        print(self.trace[self.t])
+        #return self.best.fitness
+        #self.printResult()
+
+    def printResult(self):
+        '''
+        plot the result of abs algorithm
+        '''
+        x = np.arange(0, self.MAXGEN)
+        y1 = self.trace[:, 0]
+        y2 = self.trace[:, 1]
+        y3 = self.trace[:, 2]
+        plt.semilogy(x, y1, 'r', linestyle='--', label='optimal value')
+        # plt.plot(x, y2, 'g', label='average value')
+        # plt.plot(x, y3, 'b', label='worst value')
+        # new_ticks = np.linspace(0, self.MAXGEN, 101)
+        # plt.xticks(new_ticks)
+        plt.xlabel("Iteration")
+        plt.ylabel("function value")
+        x_major_locator = MultipleLocator(500)
+        # 把x轴的刻度间隔设置为1，并存在变量里
+        ax = plt.gca()
+        # ax为两条坐标轴的实例
+        ax.xaxis.set_major_locator(x_major_locator)
+        # 把x轴的主刻度设置为5的倍数
+        plt.xlim(0, 5000)
+        plt.ylim(1e-100, 1e2)
+        # 把x轴的刻度范围设置为-0.5到11，因为0.5不满一个刻度间隔，所以数字不会显示出来，但是能看到一点空白
+        plt.title("Harmony search algorithm for function optimization")
+        plt.legend()
+        plt.show()

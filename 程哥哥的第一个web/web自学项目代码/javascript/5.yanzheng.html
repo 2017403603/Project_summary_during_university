@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>密码验证</title>
+    <script type="text/javascript">
+        function onclickfun(){
+            var useridobj=document.getElementById("userid");
+            var useridtext=useridobj.value;
+            var patt=/^\w{5,12}$/;
+            if(patt.test(useridtext)){
+                alert("静态方法，用户名合法！！！");
+            }else{
+                alert("静态方法，用户名不合法！！！");
+            }
+        }
+        window.onload=function () {
+            var useridbtnobj=document.getElementById("useridbtn");
+            useridbtnobj.onclick=function () {
+                var useridobj=document.getElementById("userid");
+                var useridspanobj=document.getElementById("useridspan");
+                var useridtext=useridobj.value;
+                var patt=/^\w{5,12}$/;
+                if(patt.test(useridtext)){
+                    //alert("动态方法，用户名合法！！！");
+                    useridspanobj.innerHTML="动态方法，用户名合法！！！";
+                }else{
+                    //alert("动态方法，用户名不合法！！！");
+                    useridspanobj.innerHTML="动态方法，用户名不合法！！！";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+       请输入账号：<input type="text" id="userid" value="wyf"/>
+       <span id="useridspan" style="color: red"></span>
+       <button onclick="onclickfun()">静态校验</button>
+       <button id="useridbtn">动态校验</button>
+</body>
+</html>

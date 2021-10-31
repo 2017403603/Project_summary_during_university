@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c6a8170-43c2-424c-8f6e-d2b55e652829" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1xwortO1jpwK02agGvvcggZp7RC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager" selected="Application.hashset">
+    <configuration name="Innerclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspjava.jdkyuan.Innerclass" />
+      <module name="hspjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hspjava.jdkyuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hashset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspjava.interfaceself.hashset" />
+      <module name="hspjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hspjava.interfaceself.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspjava.interfaceself.sort" />
+      <module name="hspjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hspjava.interfaceself.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="study" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspjava.jdkyuan.study" />
+      <module name="hspjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hspjava.jdkyuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zixue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hspjava.singleinstance.zixue" />
+      <module name="hspjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hspjava.singleinstance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.hashset" />
+        <item itemvalue="Application.sort" />
+        <item itemvalue="Application.Innerclass" />
+        <item itemvalue="Application.zixue" />
+        <item itemvalue="Application.study" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c6a8170-43c2-424c-8f6e-d2b55e652829" name="Default Changelist" comment="" />
+      <created>1631275713409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631275713409</updated>
+      <workItem from="1631275720656" duration="2742000" />
+      <workItem from="1631320700529" duration="1183000" />
+      <workItem from="1631409069892" duration="1181000" />
+      <workItem from="1631460187113" duration="1778000" />
+      <workItem from="1631502211357" duration="1416000" />
+      <workItem from="1631622131722" duration="1784000" />
+      <workItem from="1631805347050" duration="1317000" />
+      <workItem from="1631877479870" duration="1835000" />
+      <workItem from="1632106192074" duration="2112000" />
+      <workItem from="1632205666223" duration="1127000" />
+      <workItem from="1634472355739" duration="2942000" />
+      <workItem from="1634555434766" duration="3410000" />
+      <workItem from="1634643322532" duration="5540000" />
+      <workItem from="1634657594026" duration="554000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Project_Structure" timestamp="1631275731546">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1631275731546" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631461564492">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1631461564492" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1634557920573">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1634557920573" />
+    <state x="412" y="146" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1631461561361">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="146" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1631461561361" />
+    <state width="1323" height="196" key="GridCell.Tab.0.bottom" timestamp="1634658213600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="196" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1634658213600" />
+    <state width="1323" height="196" key="GridCell.Tab.0.center" timestamp="1634658213599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="196" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1634658213599" />
+    <state width="1323" height="196" key="GridCell.Tab.0.left" timestamp="1634658213598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="196" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1634658213598" />
+    <state width="1323" height="196" key="GridCell.Tab.0.right" timestamp="1634658213600">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="196" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1634658213600" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1634557936354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1634557936354" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1634557936354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1634557936354" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1634557936354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1634557936354" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1634557936354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1634557936354" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1632206206483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1632206206483" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1634657594399">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1634657594399" />
+  </component>
+</project>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54a51dc4-8b9d-4540-9d8c-e76c791d7f47" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="6c6b4ffb-2cb8-43e4-9177-7b7517ec2c86" />
+  <component name="ProjectId" id="1ZZD5NdWMHDwT0X1L9tBmleL6BC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/临时文件/数据挖掘天猫比赛/箱型图" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\和声算法\和声算法对比实验IEEE aceess" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mian_e">
+    <configuration name="HSIndividual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="和声算法对比实验IEEE aceess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HSIndividual.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mian_e" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="和声算法对比实验IEEE aceess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mian_e.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_HS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="和声算法对比实验IEEE aceess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_HS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zuotu_iris (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="和声算法对比实验IEEE aceess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zuotu_iris.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zuotu_pima" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="和声算法对比实验IEEE aceess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zuotu_pima.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mian_e" />
+        <item itemvalue="Python.my_HS" />
+        <item itemvalue="Python.HSIndividual" />
+        <item itemvalue="Python.zuotu_iris (1)" />
+        <item itemvalue="Python.zuotu_pima" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54a51dc4-8b9d-4540-9d8c-e76c791d7f47" name="Default Changelist" comment="" />
+      <created>1585037538121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585037538121</updated>
+      <workItem from="1585037571442" duration="4824000" />
+      <workItem from="1585056792548" duration="28000" />
+      <workItem from="1585100111680" duration="1931000" />
+      <workItem from="1585226504703" duration="5017000" />
+      <workItem from="1586269592132" duration="1520000" />
+      <workItem from="1586402445078" duration="123000" />
+      <workItem from="1586422678521" duration="4200000" />
+      <workItem from="1586442465666" duration="1626000" />
+      <workItem from="1586493474025" duration="2936000" />
+      <workItem from="1586504507591" duration="1903000" />
+      <workItem from="1586576400759" duration="1006000" />
+      <workItem from="1586583587801" duration="17247000" />
+      <workItem from="1586652174069" duration="9769000" />
+      <workItem from="1587693785086" duration="127000" />
+      <workItem from="1587694076370" duration="258000" />
+      <workItem from="1587694408426" duration="90000" />
+      <workItem from="1588059466866" duration="205000" />
+      <workItem from="1588059791081" duration="17286000" />
+      <workItem from="1588086236696" duration="254000" />
+      <workItem from="1588086652456" duration="354000" />
+      <workItem from="1588087085777" duration="312000" />
+      <workItem from="1588087462389" duration="49000" />
+      <workItem from="1588087596810" duration="175000" />
+      <workItem from="1589469870416" duration="852000" />
+      <workItem from="1589508823340" duration="595000" />
+      <workItem from="1589808980246" duration="75000" />
+      <workItem from="1589810925615" duration="1270000" />
+      <workItem from="1589849178787" duration="2765000" />
+      <workItem from="1590657397178" duration="206000" />
+      <workItem from="1590657732529" duration="345000" />
+      <workItem from="1591794475101" duration="4428000" />
+      <workItem from="1591869019073" duration="1944000" />
+      <workItem from="1596896422938" duration="115000" />
+      <workItem from="1597028261019" duration="528000" />
+      <workItem from="1598329428586" duration="219000" />
+      <workItem from="1600244802491" duration="420000" />
+      <workItem from="1600245291542" duration="272000" />
+      <workItem from="1600245643986" duration="9000" />
+      <workItem from="1600245689110" duration="348000" />
+      <workItem from="1600246758844" duration="2000" />
+      <workItem from="1600246838752" duration="359000" />
+      <workItem from="1600248292266" duration="12931000" />
+      <workItem from="1600301731629" duration="655000" />
+      <workItem from="1600312404776" duration="599000" />
+      <workItem from="1600315485204" duration="2985000" />
+      <workItem from="1601468465433" duration="899000" />
+      <workItem from="1602256300600" duration="1812000" />
+      <workItem from="1602847034732" duration="7877000" />
+      <workItem from="1603631614145" duration="947000" />
+      <workItem from="1612602977092" duration="9404000" />
+      <workItem from="1613211078067" duration="640000" />
+      <workItem from="1613220474300" duration="620000" />
+      <workItem from="1613234948424" duration="614000" />
+      <workItem from="1613352478654" duration="182000" />
+      <workItem from="1614057762044" duration="800000" />
+      <workItem from="1614243800545" duration="3854000" />
+      <workItem from="1614240828176" duration="10986000" />
+      <workItem from="1615016389442" duration="209000" />
+      <workItem from="1616241324322" duration="816000" />
+      <workItem from="1617963370571" duration="66000" />
+      <workItem from="1630056736981" duration="11142000" />
+      <workItem from="1634736147112" duration="243000" />
+      <workItem from="1634747649794" duration="789000" />
+      <workItem from="1635068474952" duration="1510000" />
+      <workItem from="1635659289342" duration="390000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="61" key="FileChooserDialogImpl" timestamp="1634736387404">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="61" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1634736387404" />
+    <state width="1313" height="122" key="GridCell.Tab.0.bottom" timestamp="1634748453048">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1634748453048" />
+    <state width="1313" height="122" key="GridCell.Tab.0.center" timestamp="1634748453047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="122" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1634748453047" />
+    <state width="1313" height="122" key="GridCell.Tab.0.left" timestamp="1634748453047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="122" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1634748453047" />
+    <state width="1313" height="122" key="GridCell.Tab.0.right" timestamp="1634748453047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="122" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1634748453047" />
+    <state x="275" y="145" key="com.intellij.ide.util.TipDialog" timestamp="1634736145794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1634736145794" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IEEE_aceess$zuotu.coverage" NAME="zuotu Coverage Results" MODIFIED="1591801638258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IEEE_aceess$zuotu_iris__1_.coverage" NAME="zuotu_iris (1) Coverage Results" MODIFIED="1612603395906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IEEE_aceess$HSIndividual.coverage" NAME="HSIndividual Coverage Results" MODIFIED="1612616114799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IEEE_aceess$HSDM_HS.coverage" NAME="HSDM_HS Coverage Results" MODIFIED="1586656119506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IEEE_aceess$my_HS.coverage" NAME="my_HS Coverage Results" MODIFIED="1614242605093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IEEE_aceess$ObjFunction.coverage" NAME="ObjFunction Coverage Results" MODIFIED="1586600152637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IEEE_aceess$mian_e.coverage" NAME="mian_e Coverage Results" MODIFIED="1634748241214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IEEE_aceess$zuotu_pima.coverage" NAME="zuotu_pima Coverage Results" MODIFIED="1600250826910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

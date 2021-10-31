@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onchange</title>
+    <script type="text/javascript">
+        function onchangefun(){
+            alert("英雄已经改变！！！");
+        }
+        window.onload=function () {
+            var ga=document.getElementById("game");
+            ga.onchange=function () {
+                alert("游戏已经改变！！！");
+            }
+        }
+    </script>
+</head>
+<body>
+       请选择你的英雄：<select onchange="onchangefun()">
+           <option value="">后羿</option>
+           <option value="" selected="selected">鲁班</option>
+           <option value="">伽罗</option>
+       </select><br>
+       请选择你的游戏：<select id="game">
+           <option value="">王者荣耀</option>
+           <option value="" selected="selected">刺激战场</option>
+           <option value="">光遇</option>
+       </select><br>
+</body>
+</html>

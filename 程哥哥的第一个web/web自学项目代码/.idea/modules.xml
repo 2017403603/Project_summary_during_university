@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/05.bookstore_static/05.bookstore_static.iml" filepath="$PROJECT_DIR$/05.bookstore_static/05.bookstore_static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_xml/05_xml.iml" filepath="$PROJECT_DIR$/05_xml/05_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_web/06_web.iml" filepath="$PROJECT_DIR$/06_web/06_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_servlet/07_servlet.iml" filepath="$PROJECT_DIR$/07_servlet/07_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_servlet/08_servlet.iml" filepath="$PROJECT_DIR$/08_servlet/08_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_cookie_session/13_cookie_session.iml" filepath="$PROJECT_DIR$/13_cookie_session/13_cookie_session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15_Filter/15_Filter.iml" filepath="$PROJECT_DIR$/15_Filter/15_Filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EL表达式/EL表达式.iml" filepath="$PROJECT_DIR$/EL表达式/EL表达式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSP/JSP.iml" filepath="$PROJECT_DIR$/JSP/JSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Json/Json.iml" filepath="$PROJECT_DIR$/Json/Json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book/book.iml" filepath="$PROJECT_DIR$/book/book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jQuery/jQuery.iml" filepath="$PROJECT_DIR$/jQuery/jQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javascript/javascript.iml" filepath="$PROJECT_DIR$/javascript/javascript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web自学项目代码.iml" filepath="$PROJECT_DIR$/web自学项目代码.iml" />
+    </modules>
+  </component>
+</project>

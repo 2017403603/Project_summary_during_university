@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>context</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>root</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>helloservlet</servlet-name>
+        <servlet-class>com.atguigu.servlet.helloservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>helloservlet</servlet-name>
+        <url-pattern>/abc</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>helloservlet2</servlet-name>
+        <servlet-class>com.atguigu.servlet.helloservlet2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>helloServlet3</servlet-name>
+        <servlet-class>com.atguigu.servlet.helloServlet3</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>contextServlet</servlet-name>
+        <servlet-class>com.atguigu.servlet.contextServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>helloservlet2</servlet-name>
+        <url-pattern>/hello2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>helloServlet3</servlet-name>
+        <url-pattern>/hello3</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>contextServlet</servlet-name>
+        <url-pattern>/hellocontext</url-pattern>
+    </servlet-mapping>
+</web-app>

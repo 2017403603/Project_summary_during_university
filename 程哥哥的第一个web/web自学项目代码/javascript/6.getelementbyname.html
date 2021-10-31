@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全选反选全不选</title>
+    <script type="text/javascript">
+        function onclickallfun() {
+            var hobbies=document.getElementsByName("hobby");
+            for(var i=0;i<hobbies.length;i++){
+                hobbies[i].checked=true;
+            }
+        }
+        function onclicknofun() {
+            var hobbies=document.getElementsByName("hobby");
+            for(var i=0;i<hobbies.length;i++){
+                hobbies[i].checked=false;
+            }
+        }
+        function onclickreversefun() {
+            var hobbies=document.getElementsByName("hobby");
+            for(var i=0;i<hobbies.length;i++){
+                hobbies[i].checked=!hobbies[i].checked;
+            }
+        }
+    </script>
+</head>
+<body>
+      请选择你的兴趣爱好:
+      <input type="checkbox" name="hobby" value="cpp" checked="checked"/>C++
+      <input type="checkbox" name="hobby" value="java"/>java
+      <input type="checkbox" name="hobby" value="python"/>python<br>
+      <button onclick="onclickallfun()">全选</button>
+      <button onclick="onclickreversefun()">反选</button>
+      <button onclick="onclicknofun()">全不选</button>
+</body>
+</html>

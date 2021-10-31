@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<books>
+    <book sn="SN123456">
+        <name>机器学习</name>
+        <author>周志辉</author>
+        <price>$109</price>
+    </book>
+    <book sn="SN147258369">
+        <name>统计学习及方法</name>
+        <author>李航</author>
+        <price>$99</price>
+    </book>
+</books>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c33fc8b4-9b4d-45ab-8812-685939fff6d0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qxqfYzP70W0j6PvRWLy3tObwpP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\临时文件\我的本科毕业论文\毕业论文前期准备工作\进化算法与改进HS优化FPN" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.product_train_data">
+    <configuration name="各算法FPN参数优化对比" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="进化算法与改进HS优化FPN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\ASUS\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/各算法FPN参数优化对比.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IGHS_LF_OBL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="进化算法与改进HS优化FPN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ASUS\Desktop\临时文件\我的本科毕业论文\毕业论文前期准备工作\进化算法与改进HS优化FPN\IGHS_LF_OBL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PSO单独测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="进化算法与改进HS优化FPN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PSO单独测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="product_train_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="进化算法与改进HS优化FPN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/product_train_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.product_train_data" />
+      <item itemvalue="Python.各算法FPN参数优化对比" />
+      <item itemvalue="Python.PSO单独测试" />
+      <item itemvalue="Python.IGHS_LF_OBL" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.product_train_data" />
+        <item itemvalue="Python.各算法FPN参数优化对比" />
+        <item itemvalue="Python.PSO单独测试" />
+        <item itemvalue="Python.IGHS_LF_OBL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c33fc8b4-9b4d-45ab-8812-685939fff6d0" name="Default Changelist" comment="" />
+      <created>1618031692186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618031692186</updated>
+      <workItem from="1618031714094" duration="11882000" />
+      <workItem from="1618044419358" duration="1364000" />
+      <workItem from="1618046012910" duration="571000" />
+      <workItem from="1618046698095" duration="19975000" />
+      <workItem from="1618106303899" duration="20078000" />
+      <workItem from="1618219396207" duration="2453000" />
+      <workItem from="1618231435441" duration="1492000" />
+      <workItem from="1618285041816" duration="13004000" />
+      <workItem from="1618382093908" duration="5471000" />
+      <workItem from="1619425863999" duration="322000" />
+      <workItem from="1619431546973" duration="145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="11" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618046747321">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="11" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1618046747321" />
+    <state x="291" y="122" key="FileChooserDialogImpl" timestamp="1618317888985">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="291" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1618317888985" />
+    <state width="1313" height="166" key="GridCell.Tab.0.bottom" timestamp="1618404222174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618404222174" />
+    <state width="1313" height="166" key="GridCell.Tab.0.center" timestamp="1618404222174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1618404222174" />
+    <state width="1313" height="166" key="GridCell.Tab.0.left" timestamp="1618404222174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1618404222174" />
+    <state width="1313" height="166" key="GridCell.Tab.0.right" timestamp="1618404222174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1618404222174" />
+    <state x="275" y="145" key="com.intellij.ide.util.TipDialog" timestamp="1619431627476">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619431627476" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HSFPN$PSO.coverage" NAME="PSO单独测试 Coverage Results" MODIFIED="1618321200472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HSFPN$FPN.coverage" NAME="各算法FPN参数优化对比 Coverage Results" MODIFIED="1618383078325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HSFPN$IMGHSA.coverage" NAME="IMGHSA Coverage Results" MODIFIED="1618062560963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HSFPN$product_train_data.coverage" NAME="product_train_data Coverage Results" MODIFIED="1618400135120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

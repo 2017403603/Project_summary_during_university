@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello js2</title>
+    <script type="text/javascript">
+        function onblurFun(){
+            console.log("静态事件失去焦点！！");
+        }
+        window.onload = function () {
+            var passwordobj=document.getElementById("password");
+            //alert(passwordobj);
+            passwordobj.onblur=function () {
+                console.log("动态事件失去焦点！！")
+            }
+        }
+    </script>
+</head>
+<body>
+      用户名：<input typeof="text" onblur="onblurFun()"/><br>
+      密码：<input typeof="text" id="password">
+</body>
+</html>

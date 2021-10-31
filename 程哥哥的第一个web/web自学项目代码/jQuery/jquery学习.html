@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery学习</title>
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("<div>\n" +
+                "           <span>div-span</span>\n" +
+                "           <span>div-span</span>\n" +
+                "       </div>").appendTo("body");
+                var btn01obj=document.getElementById("btn01");
+                alert(btn01obj);
+                //alert($(btn01obj));
+                alert($("#btn01"));
+                alert($("button"));
+        }
+        )
+    </script>
+</head>
+<body>
+       <button id="btn01">按钮一</button>
+       <button>按钮二</button>
+       <button>按钮三</button>
+</body>
+</html>
