@@ -11,11 +11,11 @@
 
    + [1] **Li H C, Mo L P\*, Zhou K Q. A Part-Of-Speech Tagging Approach for Chinese-Hmong Mixed Text[C]//IOP Conference Series: Materials Science and Engineering. IOP Publishing, 2020, 864(1): 012064.  
 
-     <img src=".\图片资源问文件\图1.png" alt="图1" style="zoom:43%;" />
+     <img src=".\图片资源文件\图1.png" alt="图1" style="zoom:43%;" />
 
      + 实验结果
      
-       <img src=".\图片资源问文件\图2.png" alt="图2" style="zoom: 50%;" />
+       <img src=".\图片资源文件\图2.png" alt="图2" style="zoom: 50%;" />
 
 2. IEEE ACCESS：为本科改进和声搜索算法所发表的两篇文章的代码及文档
 
@@ -23,17 +23,17 @@
 
    + [2]**H. -C. Li, K. -Q. Zhou, L. -P. Mo, A. M. Zain and F. Qin, "Weighted Fuzzy Production Rule Extraction Using Modified Harmony Search Algorithm and BP Neural Network Framework," in IEEE Access, vol. 8, pp. 186620-186637, 2020, doi: 10.1109/ACCESS.2020.3029966.** 
 
-     <img src=".\图片资源问文件\图3.png" alt="图3" style="zoom:43%;" />
+     <img src=".\图片资源文件\图3.png" alt="图3" style="zoom:43%;" />
 
      [3] **李航程，周恺卿\*，莫礼平. 基于全局最优的自适应和声搜索算法. 山东大学学报（工学版）》**
 
-     <img src=".\图片资源问文件\图4.png" alt="图4" style="zoom:43%;" />
+     <img src=".\图片资源文件\图4.png" alt="图4" style="zoom:43%;" />
 
      + 部分实验结果及截图
 
-       <img src=".\图片资源问文件\图5.png" alt="图5" style="zoom: 50%;" />
+       <img src=".\图片资源文件\图5.png" alt="图5" style="zoom: 50%;" />
 
-       <img src=".\图片资源问文件\图6.png" alt="图6" style="zoom:50%;" />
+       <img src=".\图片资源文件\图6.png" alt="图6" style="zoom:50%;" />
 
        
 
@@ -41,7 +41,7 @@
 
    + 主要实验结果如下
 
-     <img src=".\图片资源问文件\图7.png" alt="图7" style="zoom: 67%;" />
+     <img src=".\图片资源文件\图7.png" alt="图7" style="zoom: 67%;" />
 
      
 
